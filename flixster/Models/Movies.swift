@@ -23,6 +23,7 @@ struct Movie: Decodable {
     var popularity: Double
     var vote_average: Double
     var vote_count: Int
+    var release_date: String
 }
 
 struct MoviesRecommendedResponse: Decodable {

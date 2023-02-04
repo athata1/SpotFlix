@@ -75,7 +75,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "movieDBKey"
-            value = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
+            value = "127e557726e34b91c2d0483223e8dcfa"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>

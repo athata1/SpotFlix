@@ -19,6 +19,7 @@
 		124A9A90297B1B67006AAACF /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A9A8F297B1B67006AAACF /* Movies.swift */; };
 		124A9A92297B1DB9006AAACF /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124A9A91297B1DB9006AAACF /* MovieListViewController.swift */; };
 		1D2DAF662984C6AB00E3D9E0 /* MovieDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D2DAF652984C6AB00E3D9E0 /* MovieDetailViewController.swift */; };
+		1D3FA80D298CB7BD00E71DC4 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3FA80C298CB7BD00E71DC4 /* UpcomingViewController.swift */; };
 		1D8044BB298326FB0086227A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8044BA298326FB0086227A /* MovieCell.swift */; };
 		1D91F19C298B26AB00E0C810 /* PosterCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F19B298B26AB00E0C810 /* PosterCollectionViewCell.swift */; };
 		1D91F19E298B26EE00E0C810 /* PosterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F19D298B26EE00E0C810 /* PosterViewController.swift */; };
@@ -57,6 +58,7 @@
 		124A9A8F297B1B67006AAACF /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
 		124A9A91297B1DB9006AAACF /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		1D2DAF652984C6AB00E3D9E0 /* MovieDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewController.swift; sourceTree = "<group>"; };
+		1D3FA80C298CB7BD00E71DC4 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
 		1D8044BA298326FB0086227A /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		1D91F19B298B26AB00E0C810 /* PosterCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterCollectionViewCell.swift; sourceTree = "<group>"; };
 		1D91F19D298B26EE00E0C810 /* PosterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				1D2DAF652984C6AB00E3D9E0 /* MovieDetailViewController.swift */,
 				1D91F19B298B26AB00E0C810 /* PosterCollectionViewCell.swift */,
 				1D91F19D298B26EE00E0C810 /* PosterViewController.swift */,
+				1D3FA80C298CB7BD00E71DC4 /* UpcomingViewController.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				1D91F19C298B26AB00E0C810 /* PosterCollectionViewCell.swift in Sources */,
 				1D91F19E298B26EE00E0C810 /* PosterViewController.swift in Sources */,
 				124A9A92297B1DB9006AAACF /* MovieListViewController.swift in Sources */,
+				1D3FA80D298CB7BD00E71DC4 /* UpcomingViewController.swift in Sources */,
 				124A9A58297B1808006AAACF /* AppDelegate.swift in Sources */,
 				124A9A90297B1B67006AAACF /* Movies.swift in Sources */,
 				1D8044BB298326FB0086227A /* MovieCell.swift in Sources */,
@@ -473,7 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P64BHXUP6C;
+				DEVELOPMENT_TEAM = 63T5GV53Y5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = flixster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -481,12 +485,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andersondavid.flixster;
+				PRODUCT_BUNDLE_IDENTIFIER = akhilthata.Spotflix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -501,7 +506,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = P64BHXUP6C;
+				DEVELOPMENT_TEAM = 63T5GV53Y5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = flixster/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -509,12 +514,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = andersondavid.flixster;
+				PRODUCT_BUNDLE_IDENTIFIER = akhilthata.Spotflix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
