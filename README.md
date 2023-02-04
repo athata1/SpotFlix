@@ -16,14 +16,14 @@ The following **required** functionality is completed:
  
 The following **optional** features are implemented:
 
-- [ ] Make an additional network call to another end-point.	
+- [x] Make an additional network call to another end-point.	
 - [ ] Allow users to scroll when context items are off-screen (table view implemention)
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='flixtergif.gif' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
+<img src='Spotflix.gif' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with "Record it" and "MP4 to GIF Converter"
