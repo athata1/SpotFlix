@@ -1,6 +1,4 @@
-# Project 2 - SpotFlix
-
-Submitted by: Akhil Thata
+# SpotFlix
 
 SpotFlix is a movie browsing app that allows users to see movies on screen and find details pertaining to that specific movie
 
@@ -8,15 +6,13 @@ Time spent: **5** hours spent in total
 
 ## Required Features
 
-The following **required** functionality is completed:
-
+The following functionality is **completed**:
 - [x] Implement network call and table view to display a list of movies currently playing (title, description, image)
 - [x] App has a collection view with the same list of movies
 - [x] Uses a tab bar controller to switch between collection view and table view screens
- 
-The following **optional** features are implemented:
-
 - [x] Make an additional network call to another end-point.	
+
+The following functionality is **incomplete**:
 - [ ] Allow users to scroll when context items are off-screen (table view implemention)
 
 ## Video Walkthrough
