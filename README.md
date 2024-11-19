@@ -34,5 +34,5 @@ Describe any challenges encountered while building the app.
 - AutoLayout design
 - Using environment variables
 
-Create by: Akhil Thata
+Created by: Akhil Thata
 
