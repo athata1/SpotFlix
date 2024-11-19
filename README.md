@@ -33,3 +33,6 @@ GIF created with "Record it" and "MP4 to GIF Converter"
 Describe any challenges encountered while building the app.
 - AutoLayout design
 - Using environment variables
+
+Create by: Akhil Thata
+
